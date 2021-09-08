@@ -99,7 +99,7 @@ class Game
               hero1.endAnimation=frameCount+10;
 
               kickpunch.play()
-              //hero1.setCollider("rectangle",25,-40,10,10)
+            hero1.setCollider("rectangle",25,-40,10,10)
                 
 
             }  
@@ -110,7 +110,7 @@ class Game
               hero1.endAnimation=frameCount+10; 
 
               kickpunch.play() 
-             // hero1.setCollider("rectangle",30,-40,10,10)
+              hero1.setCollider("rectangle",30,-40,10,10)
 
             }
 
@@ -187,7 +187,7 @@ class Game
 
               kickpunch.play() 
 
-              hero2.setCollider("rectangle",-25,-25,10,10)         
+             // hero2.setCollider("rectangle",-25,-25,10,10)         
             }
 
             if(keyCode===101)
@@ -197,7 +197,7 @@ class Game
 
               kickpunch.play()    
 
-             hero2.setCollider("rectangle",-30,-40,10,10)        
+            // hero2.setCollider("rectangle",-30,-40,10,10)        
             }
 
             if(keyCode===101&&hero1.isTouching(hero2)||keyCode===113&&hero1.isTouching(hero2))
